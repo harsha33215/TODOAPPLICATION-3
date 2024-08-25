@@ -30,7 +30,7 @@ public class Todo {
   public Todo() {
   }
 
-  public Todo(int id, String todo, String status, String priority) {
+  public Todo(int id, String todo,  String priority,String status) {
     this.id = id;
     this.todo = todo;
     this.status = status;
